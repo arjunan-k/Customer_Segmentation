@@ -43,6 +43,35 @@ GROUP BY DEALSIZE
 ORDER BY 2 DESC
 ```
 
+### Which coutnry has the highest number of sales?
+```sql
+SELECT COUNTRY, SUM(SALES) AS REVENUE
+FROM sales_data_sample
+GROUP BY COUNTRY
+ORDER BY 2 DESC
+-- The USA has the highest revenue
+```
+
+### Which city has the highest number of sales in USA?
+```sql
+SELECT CITY, SUM(SALES) AS REVENUE
+FROM sales_data_sample
+WHERE COUNTRY = 'USA'
+GROUP BY CITY
+ORDER BY 2
+-- San Rafael has the highest number of sales in the USA
+```
+
+### Which is the best product in United States of America (USA)?
+```sql
+SELECT COUNTRY, YEAR_ID, PRODUCTLINE, SUM(SALES) AS REVENUE
+FROM sales_data_sample
+WHERE COUNTRY = 'USA'
+GROUP BY COUNTRY, YEAR_ID, PRODUCTLINE
+ORDER BY 4 DESC
+-- Classic Cars are the best selling products in the USA
+```
+
 ### What was the best month for sales in a specific year? How much was earned that month?
 ```sql
 SELECT MONTH_ID, SUM(SALES) AS REVENUE, COUNT(ORDERNUMBER) AS FREQUENCY FROM sales_data_sample
