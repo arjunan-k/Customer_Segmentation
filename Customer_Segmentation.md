@@ -123,21 +123,20 @@ WHERE ORDERNUMBER = 10411
 -- GROUP BY ORDERNUMBER
 
 SELECT DISTINCT ORDERNUMBER, STUFF(
-									(SELECT ',' + PRODUCTCODE FROM sales_data_sample p
-									WHERE ORDERNUMBER IN (
-															SELECT ORDERNUMBER 
-															FROM (
-																	SELECT ORDERNUMBER, COUNT(*) AS rn
-																	FROM sales_data_sample
-																	WHERE STATUS = 'Shipped'
-																	GROUP BY ORDERNUMBER
-																	) AS q
-															WHERE rn = 3
-															) 
-															AND p.ORDERNUMBER = s.ORDERNUMBER
-															FOR XML PATH(''))
-										
-															, 1, 1, '') AS ProductCodes
+					(SELECT ',' + PRODUCTCODE FROM sales_data_sample p
+					 WHERE ORDERNUMBER IN (
+								SELECT ORDERNUMBER 
+								FROM (
+									SELECT ORDERNUMBER, COUNT(*) AS rn
+									FROM sales_data_sample
+									WHERE STATUS = 'Shipped'
+									GROUP BY ORDERNUMBER
+								     ) AS q
+								WHERE rn = 3
+							      ) 
+								AND p.ORDERNUMBER = s.ORDERNUMBER
+								FOR XML PATH(''))
+								, 1, 1, '') AS ProductCodes
 
 FROM sales_data_sample AS s
 ORDER BY 2 DESC
