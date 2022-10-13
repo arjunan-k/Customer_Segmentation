@@ -1,4 +1,4 @@
-# <p align = 'center'>CUSTOMER SEGMENTATION ANALYSIS FOR RETAIL SALES</p>
+# CUSTOMER SEGMENTATION ANALYSIS FOR RETAIL SALES
 ![pic](https://github.com/arjunan-k/Customer_Segmentation/blob/main/Images/Customer%20Segmentation.png?raw=true)
 ## PROJECT OVERVIEW
 In this project, I have explored a sales dataset and performed various analyses and drew insights from customer's past purchase behavior by RFM technique customer segmentation using SQL and built a sales dashboard in Tableau.
@@ -36,4 +36,4 @@ FROM #rfm
 * Sales Dashboard 2
 
 ![pic](https://github.com/arjunan-k/Customer_Segmentation/blob/main/Images/Sales%20Dashboard%202.png?raw=true)
-# <p align = 'center'>Thank You</p>
+# Thank You
