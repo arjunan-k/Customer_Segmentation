@@ -1,8 +1,8 @@
 # CUSTOMER SEGMENTATION ANALYSIS FOR RETAIL SALES
-![pic](https://github.com/arjunan-k/Customer_Segmentation/blob/main/Images/Customer%20Segmentation.png?raw=true#gh-dark-mode-only)
+![pic](https://github.com/arjunan-k/Customer_Segmentation/blob/main/Images/Customer%20Segmentation.png?raw=true)
 ## PROJECT OVERVIEW
 In this project, I have explored a sales dataset and performed various analyses and drew insights from customer's past purchase behavior by RFM technique customer segmentation using SQL and built a sales dashboard in Tableau.
-## [SQL QUERY](https://github.com/arjunan-k/Customer_Segmentation/blob/main/Customer_Segmentation.md#gh-dark-mode-only)
+## [SQL QUERY](https://github.com/arjunan-k/Customer_Segmentation/blob/main/Customer_Segmentation.md)
 ## RFM ANALYSIS
 ![pic](https://github.com/arjunan-k/Customer_Segmentation/blob/main/Images/RFM.png?raw=true)
 * RFM is a data modeling method used to analyze customer value. 
