@@ -12,8 +12,19 @@ In this project, I have explored a sales dataset and performed various analyses 
 * Count of Total Orders
 #### `Monetary`
 * Total Money Spend
-```sql
 
+Sneak Peek in the RFM segmentation Technique
+```sql
+SELECT CUSTOMERNAME, rfm_recency, rfm_frequency, rfm_monetary, 
+	CASE
+		WHEN rfm_cell_string in (111, 112 , 121, 122, 123, 132, 211, 212, 114, 141, 221) THEN 'Lost Customer'    -- lost customer.
+		WHEN rfm_cell_string in (133, 134, 143, 244, 334, 343, 344, 144) THEN 'Slipping Away, Cannot Lose'       -- Big spender, slipping away.
+		WHEN rfm_cell_string in (311, 411, 331, 421, 412) THEN 'New Customer'                                    -- New customer.
+		WHEN rfm_cell_string in (222, 223, 233, 322, 232, 234) THEN 'Potential Churners'                         -- Probably leave the service.
+		WHEN rfm_cell_string in (323, 333,321, 422, 332, 432, 423) THEN 'Active'                                 -- Customers who buy often at low price.
+		WHEN rfm_cell_string in (433, 434, 443, 444) THEN 'Loyal'                                                -- Customers who buy regularly at high price.
+	END
+FROM #rfm
 ```
 ## [Tableau Dashboard](https://public.tableau.com/app/profile/arjunan.k.com/viz/CustomerSegmentationSalesDashboard/SalesDashboard1)
 * Sales Dashboard 1
