@@ -1,7 +1,7 @@
 # <p align = 'center'>Customer Segmentation Analysis for Retail Sales</p>
 ## PROJECT OVERVIEW
 In this project, I have explored a sales dataset and performed various analyses and drew insights from customer's past purchase behavior by RFM technique customer segmentation using SQL and built a sales dashboard in Tableau.
-* # [SQL Query]()
+* ## [SQL Query]()
 ## RFM ANALYSIS
 * RFM is a data modeling method used to analyze customer value. 
 * It stands for Recency, Frequency, and Monetary which are the three metrics that describes the customers. 
