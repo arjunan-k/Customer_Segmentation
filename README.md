@@ -15,9 +15,11 @@ In this project, I have explored a sales dataset and performed various analyses 
 ```sql
 
 ```
-* [Tableau Dashbaord](https://public.tableau.com/app/profile/arjunan.k.com/viz/CustomerSegmentationSalesDashboard/SalesDashboard1)
+# [Tableau Dashboard](https://public.tableau.com/app/profile/arjunan.k.com/viz/CustomerSegmentationSalesDashboard/SalesDashboard1)
 * Sales Dashboard 1
+
 ![pic](https://github.com/arjunan-k/Customer_Segmentation/blob/main/Images/Sales%20Dashboard%201.png?raw=true)
-* Sales Dashboard 1
+* Sales Dashboard 2
+
 ![pic](https://github.com/arjunan-k/Customer_Segmentation/blob/main/Images/Sales%20Dashboard%202.png?raw=true)
-### <p align = 'center'>Thank You</p>v
+# <p align = 'center'>Thank You</p>
