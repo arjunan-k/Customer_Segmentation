@@ -58,7 +58,7 @@ SELECT CITY, SUM(SALES) AS REVENUE
 FROM sales_data_sample
 WHERE COUNTRY = 'USA'
 GROUP BY CITY
-ORDER BY 2
+ORDER BY 2 DESC
 -- San Rafael has the highest number of sales in the USA
 ```
 
