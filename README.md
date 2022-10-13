@@ -2,8 +2,9 @@
 ![pic](https://github.com/arjunan-k/Customer_Segmentation/blob/main/Images/Customer%20Segmentation.png?raw=true)
 ## PROJECT OVERVIEW
 In this project, I have explored a sales dataset and performed various analyses and drew insights from customer's past purchase behavior by RFM technique customer segmentation using SQL and built a sales dashboard in Tableau.
-## [SQL Query](https://github.com/arjunan-k/Customer_Segmentation/blob/main/Customer_Segmentation.md)
+## [SQL QUERY](https://github.com/arjunan-k/Customer_Segmentation/blob/main/Customer_Segmentation.md)
 ## RFM ANALYSIS
+![pic](https://github.com/arjunan-k/Customer_Segmentation/blob/main/Images/RFM.png?raw=true)
 * RFM is a data modeling method used to analyze customer value. 
 * It stands for Recency, Frequency, and Monetary which are the three metrics that describe the customers. 
 * It is an indexing technique that uses past purchase behaviour to segment customers.
