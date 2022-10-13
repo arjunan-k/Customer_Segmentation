@@ -4,8 +4,8 @@ In this project, I have explored a sales dataset and performed various analyses 
 ## [SQL Query](https://github.com/arjunan-k/Customer_Segmentation/blob/main/Customer_Segmentation.md)
 ## RFM ANALYSIS
 * RFM is a data modeling method used to analyze customer value. 
-* It stands for Recency, Frequency, and Monetary which are the three metrics that describes the customers. 
-* It is a indexing technique that uses past purchase behaviour to segment customers.
+* It stands for Recency, Frequency, and Monetary which are the three metrics that describe the customers. 
+* It is an indexing technique that uses past purchase behaviour to segment customers.
 #### `Recency`
 * Last Order Date
 #### `Frequency`
