@@ -37,7 +37,7 @@ FROM #rfm
 
 ![pic](https://github.com/arjunan-k/Customer_Segmentation/blob/main/Images/Sales%20Dashboard%202.png?raw=true)
 
-# <p align = 'center'>Business Solutions For Better Retail Sales</p>
+<!-- # <p align = 'center'>Business Solutions For Better Retail Sales</p>
 * #### `Based on SQL Query`
   * #### `Customer Segmentation`
   * #### `Products Sold Together`
@@ -82,4 +82,4 @@ After customer segmentation we will be having segments of sustomers. So our aim 
 # <p align = 'center'>Thank You</p>
 * location
 * provide all availbel in remotre town also
-* 
+*  -->
