@@ -36,4 +36,10 @@ FROM #rfm
 * Sales Dashboard 2
 
 ![pic](https://github.com/arjunan-k/Customer_Segmentation/blob/main/Images/Sales%20Dashboard%202.png?raw=true)
+
+# <p align = 'center'>Business Solution for Better Retail Sales</p>
+* Based on SQL Query
+  * Customer Segmentation
+  * Commonly Sold Together items.
+* Based on Tableau
 # <p align = 'center'>Thank You</p>
