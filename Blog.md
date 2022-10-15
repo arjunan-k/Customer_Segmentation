@@ -37,49 +37,51 @@ FROM #rfm
 
 ![pic](https://github.com/arjunan-k/Customer_Segmentation/blob/main/Images/Sales%20Dashboard%202.png?raw=true)
 
-<!-- # <p align = 'center'>Business Solutions For Better Retail Sales</p>
-* #### `Based on SQL Query`
-  * #### `Customer Segmentation`
-  * #### `Products Sold Together`
-* #### `Based on Tableau`
-## 1. Based on SQL Query
-### 1 a. Customer Segmentation
-After customer segmentation we will be having segments of sustomers. So our aim is to bring back all of them.
 
-##### 6 Segments of Customers
-* Lost Customer
-  * Reach out to those customers and identify the reasons why they left?
-  * If it is due to price of products. Hit them with new offers and gift cards.
-  * If it is due to about customer service. Ask for feedbacks and suggestions.
-  * Product damange refuns issues
-  * change locationj
-  * difficult to travel
-  * digitak
-  * high big shop
-  * home delivery
-  * discount offers
-  * coupon
-  * monthly follow up
-  * credit bill
-  * provide non available things
-  * add points on transaction
-  * neat and tidy
-  * combo offer 
-  * remainder
-  * same sales girl
-  * arrange closer
-  * high ratesa stacked above
-  * provides items in billing
-  * 
-* Slipping Away
-* New Customers
-* Potential Churners
-* Active
-* Loyal
-### 1 b. Products Sold Together
-## 2. Based on Tableau
+# <p align = 'center'>BUSINESS SOLUTIONS FOR THE CUSTOMER & PRODUCT SEGMENTATION</p>
+After Customer Segmentation and Products Grouping using SQL, We will be having different segments of customers and groups of sold together products. 
+So our aim is to bring back Customers and increase sales of brought together Products. 
+I will be providing general business solution for retail sales along with our Vehicle Product Sales in data.
 
-# <p align = 'center'>Thank You</p>
-* location
-* provide all availbel in remotre town also
-*  -->
+## CUSTOMER SEGMENTATION
+
+### **1. Lost Customer**
+  * Reach out to those customers and identify the reasons why they left?.
+  * Discuss the problems they faced like Product Damage and Refund Issues.
+  * Shifted their home - Provide items/products to their new location.
+
+### **2. Slipping Away** (Big Spender)
+* Hit them with new offers and discounts.
+* Shifted their home - Provide items to their new location.
+* Provide ease of purchasing - Digital Transactions Service. 
+
+### **3. New Customer**
+* Add points on each of their transactions to give them gift and vouchers after a certain limit.
+* Ask for feedbacks and suggestions in customer service experience.
+* Provide home/any location delivery.
+
+### **4. Potential Churner**
+* Hit them with new offers and discounts.
+* Provide coupons for products they usually buy.
+* Ask for feedbacks and suggestions.
+
+### **5. Active Customer** (Buy often at low price)
+* Provide Credit Billing Service, So they can purchase much better without worrying about money.
+* Hit them with coupons for their likelly items.
+* Provide them more affordable discounts and products available in small quantity items(Low Price).
+
+### **6. Loyal Customer** (Buy regularly at high price)
+* Provide home/any location delivery.
+* Follow them monthly during their usual purchase dates.
+* Provide them whatever they wish to buy, even if we are not providing such products.
+
+
+## PRODUCTS SOLD TOGETHER
+* Add Combo Offers to such products.
+* Set Remainder in Customers Profile, In case they miss to purchase their brought together products.
+* Assign Sales Support Persons with good knowledge about that product in that brought together section to guide the customers.
+* Arrange such products Closer.
+* Show them other Replacement Options by other companies.
+* Provide such items near Billing Sections, so that they can remember easily.
+
+# <p align = 'center'>THANK YOU</p>
