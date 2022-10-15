@@ -1,7 +1,7 @@
 # <p align = 'center'>CUSTOMER SEGMENTATION ANALYSIS FOR RETAIL SALES</p>
 ![pic](https://github.com/arjunan-k/Customer_Segmentation/blob/main/Images/Customer%20Segmentation.png?raw=true)
 ## PROJECT OVERVIEW
-In this project, I have explored a sales dataset and performed various analyses and drew insights from customer's past purchase behavior by RFM technique customer segmentation using SQL and built a sales dashboard in Tableau.
+In this project, I have explored a sales dataset and performed various analyses and drew insights from customer's past purchase behavior by RFM technique customer segmentation using SQL and built a sales dashboard in Tableau. At the end, provided business solutions by analysing th segments of customers and products to improve the sales.
 ## [SQL QUERY](https://github.com/arjunan-k/Customer_Segmentation/blob/main/Customer_Segmentation.md)
 ## RFM ANALYSIS
 ![pic](https://github.com/arjunan-k/Customer_Segmentation/blob/main/Images/RFM.png?raw=true)
@@ -67,13 +67,13 @@ I will be providing general business solution for retail sales along with our Ve
 
 ### **5. Active Customer** (Buy often at low price)
 * Provide Credit Billing Service, So they can purchase much better without worrying about money.
-* Hit them with coupons for their likelly items.
 * Provide them more affordable discounts and products available in small quantity items(Low Price).
+* Hit them with coupons for products they usually buy.
 
 ### **6. Loyal Customer** (Buy regularly at high price)
-* Provide home/any location delivery.
 * Follow them monthly during their usual purchase dates.
 * Provide them whatever they wish to buy, even if we are not providing such products.
+* Provide home/any location delivery.
 
 
 ## PRODUCTS SOLD TOGETHER
