@@ -80,3 +80,6 @@ After customer segmentation we will be having segments of sustomers. So our aim 
 ## 2. Based on Tableau
 
 # <p align = 'center'>Thank You</p>
+* location
+* provide all availbel in remotre town also
+* 
