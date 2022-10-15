@@ -37,9 +37,46 @@ FROM #rfm
 
 ![pic](https://github.com/arjunan-k/Customer_Segmentation/blob/main/Images/Sales%20Dashboard%202.png?raw=true)
 
-# <p align = 'center'>Business Solution for Better Retail Sales</p>
-* Based on SQL Query
-  * Customer Segmentation
-  * Commonly Sold Together items.
-* Based on Tableau
+# <p align = 'center'>Business Solutions For Better Retail Sales</p>
+* #### `Based on SQL Query`
+  * #### `Customer Segmentation`
+  * #### `Products Sold Together`
+* #### `Based on Tableau`
+## 1. Based on SQL Query
+### 1 a. Customer Segmentation
+After customer segmentation we will be having segments of sustomers. So our aim is to bring back all of them.
+
+##### 6 Segments of Customers
+* Lost Customer
+  * Reach out to those customers and identify the reasons why they left?
+  * If it is due to price of products. Hit them with new offers and gift cards.
+  * If it is due to about customer service. Ask for feedbacks and suggestions.
+  * Product damange refuns issues
+  * change locationj
+  * difficult to travel
+  * digitak
+  * high big shop
+  * home delivery
+  * discount offers
+  * coupon
+  * monthly follow up
+  * credit bill
+  * provide non available things
+  * add points on transaction
+  * neat and tidy
+  * combo offer 
+  * remainder
+  * same sales girl
+  * arrange closer
+  * high ratesa stacked above
+  * provides items in billing
+  * 
+* Slipping Away
+* New Customers
+* Potential Churners
+* Active
+* Loyal
+### 1 b. Products Sold Together
+## 2. Based on Tableau
+
 # <p align = 'center'>Thank You</p>
