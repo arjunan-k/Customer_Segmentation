@@ -16,7 +16,7 @@ In this project, I have explored a sales dataset and performed various analyses 
 * Total Money Spend
 
 Sneak Peek into the RFM Segmentation Technique.
-## For complete code, Click here -> [SQL QUERY](https://github.com/arjunan-k/Customer_Segmentation/blob/main/Customer_Segmentation.md)
+## For the complete code, Click here -> [SQL QUERY](https://github.com/arjunan-k/Customer_Segmentation/blob/main/Customer_Segmentation.md)
 ```sql
 SELECT CUSTOMERNAME, rfm_recency, rfm_frequency, rfm_monetary, 
        CASE
