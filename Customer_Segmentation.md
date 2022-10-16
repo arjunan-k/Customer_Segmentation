@@ -1,4 +1,4 @@
-## <p align = 'center'>Customer Segmentation Using RFM Technique</p>
+## <p align = 'center'>CUSTOMER SEGMENTATION USING RFM TECHNIQUE</p>
 * ##### `CTE`
 * ##### `Window Function`
 * ##### `Aggregate Functions`
@@ -170,4 +170,4 @@ SELECT DISTINCT ORDERNUMBER, STUFF(
 FROM sales_data_sample AS s
 ORDER BY 2 DESC
 ```
-## <p align = 'center'>Thank You</p>
+## <p align = 'center'>THANK YOU</p>
