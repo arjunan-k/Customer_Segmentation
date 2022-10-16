@@ -20,12 +20,12 @@ Sneak Peek into the RFM segmentation Technique. For complete SQL code click belo
 ```sql
 SELECT CUSTOMERNAME, rfm_recency, rfm_frequency, rfm_monetary, 
        CASE
-	   WHEN rfm_cell_string in (111, 112 , 121, 122, 123, 132, 211, 212, 114, 141, 221) THEN 'Lost Customer'    -- lost customer.
-	   WHEN rfm_cell_string in (133, 134, 143, 244, 334, 343, 344, 144) THEN 'Slipping Away'                    -- big spender, slipping away.
-	   WHEN rfm_cell_string in (311, 411, 331, 421, 412) THEN 'New Customer'                                    -- new customer.
-	   WHEN rfm_cell_string in (222, 223, 233, 322, 232, 234) THEN 'Potential Churners'                         -- probably leave the service.
-	   WHEN rfm_cell_string in (323, 333,321, 422, 332, 432, 423) THEN 'Active'                                 -- customers who buy often at low price.
-	   WHEN rfm_cell_string in (433, 434, 443, 444) THEN 'Loyal'                                                -- customers who buy regularly at high price.
+	   WHEN rfm_cell_string IN (111, 112 , 121, 122, 123, 132, 211, 212, 114, 141, 221) THEN 'Lost Customer'    -- lost customer.
+	   WHEN rfm_cell_string IN (133, 134, 143, 244, 334, 343, 344, 144) THEN 'Slipping Away'                    -- big spender, slipping away.
+	   WHEN rfm_cell_string IN (311, 411, 331, 421, 412) THEN 'New Customer'                                    -- new customer.
+	   WHEN rfm_cell_string IN (222, 223, 233, 322, 232, 234) THEN 'Potential Churners'                         -- probably leave the service.
+	   WHEN rfm_cell_string IN (323, 333,321, 422, 332, 432, 423) THEN 'Active'                                 -- customers who buy often at low price.
+	   WHEN rfm_cell_string IN (433, 434, 443, 444) THEN 'Loyal'                                                -- customers who buy regularly at high price.
        END
 FROM #rfm
 ```
